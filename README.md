@@ -1,0 +1,2 @@
+# RiichiStat
+RiichiStat
