@@ -45,9 +45,9 @@ The project main purpose is to implement **mahjong** game. Final version will co
   ```
 
 # Files 
-* [player.h](https://github.com/fascinatingwind/RiichiStat/tree/main/MahjongStatistic/include/player.h) - **player** class with declaration of structure and plaer functional
-* [game.h](https://github.com/fascinatingwind/RiichiStat/tree/main/MahjongStatistic/include/game.h) - class of **mahjong** game with declaration of players activity operation and main functions
-* [player.cpp](https://github.com/fascinatingwind/RiichiStat/tree/main/MahjongStatistic/src/player.cpp) - **player** class definition
-* [game.cpp](https://github.com/fascinatingwind/RiichiStat/tree/main/MahjongStatistic/src/game.cpp) - **mahjong** game class definition
-* [main.cpp](https://github.com/fascinatingwind/RiichiStat/tree/main/MahjongStatistic/src/main.cpp) - **main** file
-* [test.cpp](https://github.com/fascinatingwind/RiichiStat/tree/main/MahjongStatistic/src/test.cpp) - **test** of project functionality
+* [player.h](https://github.com/EjenY-Poltavchiny/CPP-proj/blob/ejeny_branch/MahjongStatistic/include/player.h) - **player** class with declaration of structure and plaer functional
+* [game.h](https://github.com/EjenY-Poltavchiny/CPP-proj/blob/ejeny_branch/MahjongStatistic/include/game.h) - class of **mahjong** game with declaration of players activity operation and main functions
+* [player.cpp](https://github.com/EjenY-Poltavchiny/CPP-proj/blob/ejeny_branch/MahjongStatistic/src/player.cpp) - **player** class definition
+* [game.cpp](https://github.com/EjenY-Poltavchiny/CPP-proj/blob/ejeny_branch/MahjongStatistic/src/game.cpp) - **mahjong** game class definition
+* [main.cpp](https://github.com/EjenY-Poltavchiny/CPP-proj/blob/ejeny_branch/MahjongStatistic/src/main.cpp) - **main** file
+* [test.cpp](https://github.com/EjenY-Poltavchiny/CPP-proj/blob/ejeny_branch/MahjongStatistic/src/test.cpp) - **test** of project functionality
