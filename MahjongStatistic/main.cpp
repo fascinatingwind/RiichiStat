@@ -1,6 +1,7 @@
 #include <cstdlib>
 
 #include <iostream>
+#include "mahjong.h"
 
 int main(int argv, char* argc[])
 {

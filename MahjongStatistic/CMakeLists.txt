@@ -5,9 +5,9 @@ include_directories(include)
 link_directories(src)
 
 set(HEADER_FILES ${SOURCE_FILES}
-	"include/main.h"
+	"include/mahjong.h"
 )
 set(SOURCE_FILES ${SOURCE_FILES}
-	"src/main.cpp"
+	"src/mahjong.cpp"
 )
-add_executable(MahjongStatistic ${HEADER_FILES} ${SOURCE_FILES})
+add_executable(MahjongStatistic ${HEADER_FILES} ${SOURCE_FILES} main.cpp)
