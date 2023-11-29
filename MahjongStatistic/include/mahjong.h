@@ -1,4 +1,4 @@
-#include <cstdlib>
+п»ї#include <cstdlib>
 #include <iostream>
 #include <vector>
 
@@ -6,8 +6,8 @@ enum nameTile { man, pin, sou, winds, dragon };
 
 struct  Tile
 {
-    //id = 0 означает, что тайл не известен
-    // 0 < id < 35 означает, индитификатор тайла
+    //id = 0 РѕР·РЅР°С‡Р°РµС‚, С‡С‚Рѕ С‚Р°Р№Р» РЅРµ РёР·РІРµСЃС‚РµРЅ
+    // 0 < id < 35 РѕР·РЅР°С‡Р°РµС‚, РёРЅРґРёС‚РёС„РёРєР°С‚РѕСЂ С‚Р°Р№Р»Р°
     int id;
 };
 
@@ -17,7 +17,7 @@ private:
     std::vector<Tile> hand;
     std::vector<Tile> declared_tiles;
 public:
-    //инициализация известных тайлов 
+    //РёРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РёР·РІРµСЃС‚РЅС‹С… С‚Р°Р№Р»РѕРІ 
     void defineHand();
     void setHand();
     void setDeclaredTiles();
@@ -29,9 +29,9 @@ private:
     Gamer east_gamer, soutn_gamer, west_gamer, north_gamer;
     std::vector<Tile> wall;
 public:
-    //выдает вероятность вытянуть из стены заданный тайл  
+    //РІС‹РґР°РµС‚ РІРµСЂРѕСЏС‚РЅРѕСЃС‚СЊ РІС‹С‚СЏРЅСѓС‚СЊ РёР· СЃС‚РµРЅС‹ Р·Р°РґР°РЅРЅС‹Р№ С‚Р°Р№Р»  
     double getStatistics(int id);
-    //задать состояние игры в конкретный момент времени, без учета предыдущих действий
+    //Р·Р°РґР°С‚СЊ СЃРѕСЃС‚РѕСЏРЅРёРµ РёРіСЂС‹ РІ РєРѕРЅРєСЂРµС‚РЅС‹Р№ РјРѕРјРµРЅС‚ РІСЂРµРјРµРЅРё, Р±РµР· СѓС‡РµС‚Р° РїСЂРµРґС‹РґСѓС‰РёС… РґРµР№СЃС‚РІРёР№
     void setCondition();
     //void changeGamer();
     void runGame();
