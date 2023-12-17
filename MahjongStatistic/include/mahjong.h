@@ -17,6 +17,8 @@ private:
     std::vector<Tile> hand;
     std::vector<Tile> declared_tiles;
 public:
+    // конструктор
+    Gamer();
     //инициализация известных тайлов 
     void defineHand();
     void setHand(std::vector<Tile> hand_);
@@ -28,7 +30,8 @@ class Mahjong
 private:
     Gamer east_gamer, soutn_gamer, west_gamer, north_gamer;
     std::vector<Tile> center;
-    int wall_size;
+    int wall_size = 0;
+     
 public:
     //выдает вероятность вытянуть из стены заданный тайл  
     double getStatistics(int id);

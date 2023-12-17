@@ -1,5 +1,11 @@
 #include "mahjong.h"
 
+
+Gamer::Gamer() {
+    Tile uknown = {0};
+    hand.resize(14, uknown);
+}
+
 void Mahjong::setCondition(std::vector<std::vector<Tile>> hands
                             , std::vector<std::vector<Tile>> declared_tiles
                             , std::vector<Tile> center_
